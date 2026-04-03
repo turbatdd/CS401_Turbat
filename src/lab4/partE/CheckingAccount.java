@@ -1,4 +1,4 @@
-package lab4.probE;
+package lab4.partE;
 
 public class CheckingAccount extends Account {
     private String acctId;

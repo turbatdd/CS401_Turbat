@@ -1,4 +1,4 @@
-package lab4.probC;
+package lab4.partC;
 
 public class Hourly extends Employee {
     private static final int WEEKS_PER_MONTH = 4;

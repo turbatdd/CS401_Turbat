@@ -1,4 +1,4 @@
-package lab4.probC;
+package lab4.partC;
 
 public class Salaried extends Employee {
     private double monthlySalary;
