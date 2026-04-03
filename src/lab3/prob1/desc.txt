@@ -1,0 +1,23 @@
+The reason the results are different is because each class uses a different equals() method.
+
+
+Person p1 = new PersonWithJob("Joe", 30000);
+Person p2 = new Person("Joe");
+//As PersonsWithJobs, p1 should be equal to p2
+System.out.println("p1.equals(p2)? " + p1.equals(p2));
+System.out.println("p2.equals(p1)? " + p2.equals(p1));
+
+1. p1.equals(p2) → FALSE
+- p1 is a PersonWithJob, so it uses PersonWithJob’s equals()
+- It checks name AND salary
+- But p2 (Person) does not have salary
+- So the comparison fails → false
+
+2. p2.equals(p1) → TRUE
+
+- p2 is a Person, so it uses Person’s equals()
+- It checks only the name
+- "Joe" equals "Joe" → true
+
+The results are different because Person and PersonWithJob use different rules for equality.
+Person checks only name, while PersonWithJob checks both name and salary, which breaks the symmetry rule of equals().
