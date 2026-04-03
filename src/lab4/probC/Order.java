@@ -1,4 +1,4 @@
-package lab4.part4C;
+package lab4.probC;
 
 import java.time.LocalDate;
 

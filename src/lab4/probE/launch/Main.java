@@ -1,6 +1,6 @@
-package lab4.part4E.launch;
+package lab4.probE.launch;
 
-import lab4.part4E.*;
+import lab4.probE.*;
 
 import java.util.ArrayList;
 import java.util.List;

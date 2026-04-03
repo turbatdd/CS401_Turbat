@@ -1,4 +1,4 @@
-package lab4.part4C;
+package lab4.probC;
 
 /** Instances of Tax are types of tax, with constant values as vals */
 public enum Tax {

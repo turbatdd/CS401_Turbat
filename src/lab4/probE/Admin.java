@@ -1,4 +1,4 @@
-package lab4.part4E;
+package lab4.probE;
 
 import java.util.List;
 

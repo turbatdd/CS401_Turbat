@@ -1,14 +1,14 @@
-package lab4.part4E;
+package lab4.probE;
 
-public class SavingsAccount extends Account {
+public class CheckingAccount extends Account {
     private String acctId;
-    private double interestRate;
+    private double monthlyFee;
     private double balance;
 
-    public SavingsAccount(String accountId, double interestRate, double balance) {
+    public CheckingAccount(String accountId, double monthlyFee, double startBalance) {
         this.acctId = accountId;
-        this.interestRate = interestRate;
-        this.balance = balance;
+        this.monthlyFee = monthlyFee;
+        this.balance = startBalance;
     }
 
     @Override
@@ -23,7 +23,7 @@ public class SavingsAccount extends Account {
 
     @Override
     public double computeUpdatedBalance() {
-        return balance + interestRate * balance;
+        return balance - monthlyFee;
     }
 }
 
