@@ -1,6 +1,7 @@
 
 CREATE Database lab07;
 
+USE lab07;
 
 CREATE TABLE Address (
     address_id INT PRIMARY KEY,
