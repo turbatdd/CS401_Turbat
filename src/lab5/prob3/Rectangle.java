@@ -7,6 +7,7 @@ public final class Rectangle implements Shape {
     public Rectangle(double width, double length) {
         this.width = width;
         this.length = length;
+
     }
 
     public double getWidth() {
