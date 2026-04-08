@@ -63,7 +63,7 @@ VALUES
 (1, 'X', 180, 'FL'),
 (2, 'Y', 60, 'FL'),
 (3, 'Z', 80, 'IA');
--- *** 4. Insert Data into Employee Table ***
+-- *** 4. Insert Data into lab8.jdbc.Employee Table ***
 -- NOTE: This depends on Address (address_id) and Department (dept_id) being populated first.
 INSERT INTO Employee (emp_id, name, salary, address_id, dept_id) VALUES
 (111, 'Zaineh', 100000, 1, 1),
@@ -72,7 +72,7 @@ INSERT INTO Employee (emp_id, name, salary, address_id, dept_id) VALUES
 (114, 'Shimaa', 200000, 4, 2),
 (115, 'Dean', 150000, 5, 1);
 -- *** 5. Insert Data into Employee_Project Table ***
--- NOTE: This depends on Employee (emp_id) and Project (project_id) being populated first.
+-- NOTE: This depends on lab8.jdbc.Employee (emp_id) and Project (project_id) being populated first.
 INSERT INTO Employee_Project (emp_id, project_id) VALUES
 (115, 1),
 (115, 2),
