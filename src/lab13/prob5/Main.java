@@ -33,6 +33,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
+
         // Works with Integers
         List<Integer> ints = Arrays.asList(5, 1, 9, 2, 8);
         System.out.println("Second smallest Integer: " + secondSmallest(ints)); // 2
